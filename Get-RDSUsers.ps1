@@ -1,5 +1,9 @@
 ﻿function Global:Get-RDSUsers {
 <#
+.NOTES
+    Author: Robert D. Biddle (email: robertdbiddle+powershell@gmail.com )
+.DESCRIPTION
+    PowerShell function to determine the current number of active Windows Remote Desktop (i.e. RDP / RDS) sessions on a server
 .EXAMPLE 
     Get-RDSUsers 
         - This will output information about all local Remote Desktop Session
